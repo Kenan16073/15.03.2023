@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.general{
+    width: 100%;
+    height: 745px;
+    position: relative;
+    overflow: hidden;
+}
+
+.way{
+    width: 100%;
+    height: 100%;
+    background-image: url('./img/way.avif');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+}
+.car1{
+    width: 300px;
+    height: 300px;
+    background-image: url('./img/car1.gif');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: -50px;
+    left: -400px;
+    animation-name: car1;
+    animation-duration: 30s;
+   
+}
+
+@keyframes car1 {
+    from{
+        left: -400px;
+    }
+    to{
+        left: 100%;
+        animation-direction: normal;
+    }
+}
+
+.car2{
+    width: 300px;
+    height: 300px;
+    background-image: url('./img/car2.gif');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: -120px;
+    left: -400px;
+    animation-name: car2;
+    animation-delay: 10s;
+    animation-duration: 30s;
+}
+@keyframes car2 {
+    from{
+        left: -400px;
+    }
+    to{
+        left: 100%;
+    }
+}
+
+.car3{
+    width: 300px;
+    height: 300px;
+    background-image: url('./img/car3.gif');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: -400px;
+    bottom: -50px;
+    animation-name: car3;
+    animation-delay: 20s;
+    animation-duration: 30s;
+}
+@keyframes car3 {
+  from{
+    left: -400px;
+  }
+  to{
+    left: 100%;
+  }
+}
+.car4{
+    width: 500px;
+    height: 500px;
+    background-image: url('./img/car4.gif');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: -400px;
+    bottom: -320px;
+    animation-name: car4;
+    animation-delay: 30s;
+    animation-duration: 30s;
+}
+@keyframes car4 {
+    from{
+      left: -400px;
+    }
+    to{
+      left: 100%;
+    }
+  }
+
+.car5{
+    width: 300px;
+    height: 300px;
+    background-image: url('./img/car5.gif');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: -400px;
+    bottom: -70px;
+    animation-name: car5;
+    animation-delay: 40s;
+    animation-duration: 30s;
+}
+@keyframes car5 {
+    from{
+      left: -400px;
+    }
+    to{
+      left: 100%;
+    }
+  }
+  .car6{
+    width: 300px;
+    height: 300px;
+    background-image: url('./img/car6.gif');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: -400px;
+    bottom: -200px;
+    animation-name: car6;
+    animation-delay: 50s;
+    animation-duration: 30s;
+}
+
+@keyframes car6 {
+    from{
+      left: -400px;
+    }
+    to{
+      left: 100%;
+    }
+  }
+  .blud1{
+    width: 300px;
+    height: 300px;
+    background-image: url('./img/blud.gif');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: -400px;
+    top: 0px;
+    animation-name: blud1;
+    animation-duration: 50s;
+}
+
+@keyframes blud1 {
+    from{
+      left: -400px;
+    }
+    to{
+      left: 100%;
+    }
+  }
+  .blud2{
+    width: 300px;
+    height: 300px;
+    background-image: url('./img/blud.gif');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: -400px;
+    top: 0px;
+    animation-name: blud2;
+    animation-delay: 4s;
+    animation-duration: 50s;
+}
+
+@keyframes blud2 {
+    from{
+      left: -400px;
+    }
+    to{
+      left: 100%;
+    }
+  }
+  .blud3{
+    width: 300px;
+    height: 300px;
+    background-image: url('./img/blud.gif');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: -400px;
+    top: 0px;
+    animation-name: blud3;
+    animation-delay: 8s;
+    animation-duration: 50s;
+}
+
+@keyframes blud3 {
+    from{
+      left: -400px;
+    }
+    to{
+      left: 100%;
+    }
+  }
+  .blud4{
+    width: 300px;
+    height: 300px;
+    background-image: url('./img/blud.gif');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: -400px;
+    top: 0px;
+    animation-name: blud4;
+    animation-delay: 13s;
+    animation-duration: 50s;
+}
+
+@keyframes blud4 {
+    from{
+      left: -400px;
+    }
+    to{
+      left: 100%;
+    }
+  }
+
+  .human1{
+    width: 100px;
+    height: 100px;
+    background-image: url('./img/human1.gif');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: -400px;
+    bottom: 90px;
+    animation-name: human1;
+    animation-delay: 1s;
+    animation-duration: 90s;
+  }
+  @keyframes human1 {
+    from{
+      left: -400px;
+    }
+    to{
+      left: 100%;
+    }
+  }
+  .human2{
+    width: 200px;
+    height: 200px;
+    background-image: url('./img/human2.gif');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: -400px;
+    bottom: 90px;
+    animation-name: human2;
+    animation-delay: 20s;
+    animation-duration: 90s;
+  }
+  @keyframes human2 {
+    from{
+      left: -400px;
+    }
+    to{
+      left: 100%;
+    }
+  }
+  .human3{
+    width: 70px;
+    height: 70px;
+    background-image: url('./img/human3.gif');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: -400px;
+    bottom: 160px;
+    animation-name: human3;
+    animation-delay: 2s;
+    animation-duration: 90s;
+  }
+  @keyframes human3 {
+    from{
+      right: -400px;
+    }
+    to{
+      right: 100%;
+    }
+  }
+audio{
+    display: none;
+} 
